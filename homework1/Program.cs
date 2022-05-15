@@ -4,9 +4,9 @@
 
 Console.WriteLine("Введите для сравнения два числа:");
 
-int number1=Convert.ToInt32(Console.ReadLine());
-int number2=Convert.ToInt32(Console.ReadLine());
+double number1=Convert.ToDouble(Console.ReadLine());
+double number2=Convert.ToDouble(Console.ReadLine());
 
-int max=number1;
+double max=number1;
 if (max<number2) max=number2;
 Console.WriteLine("Максимальное число:"+ max);
