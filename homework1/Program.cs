@@ -9,4 +9,4 @@ double number2=Convert.ToDouble(Console.ReadLine());
 
 double max=number1;
 if (max<number2) max=number2;
-Console.WriteLine("Максимальное число:"+ max);
+Console.WriteLine("Наибольшее число:"+ max);
